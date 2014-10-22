@@ -9,6 +9,6 @@
   "devDependencies": {
     "angular": "latest",
     "angular-mocks": "latest",
-    "medium-editor": "1.8.*"
+    "medium-editor": "1.9.*"
   }
 }
