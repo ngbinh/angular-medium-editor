@@ -20,10 +20,8 @@ angular.module('angular-medium-editor', []).directive('mediumEditor', function (
       };
       prepOpts();
       placeholder = opts.placeholder;
-      ctrl.editor = new MediumEditor(iElement, opts);
       // model -> view
       ctrl.$render = function () {
-        console.log('asdasd');
         if (!this.editor) {
           // Hide placeholder when the model is not empty
           if (!ctrl.$isEmpty(ctrl.$viewValue)) {
